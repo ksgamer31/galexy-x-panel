@@ -1,27 +1,52 @@
 #!/bin/bash
-red="\033[0;31m"
-green="\033[0;32m"
-plain="\033[0m"
 
-[[ $EUID -ne 0 ]] && echo -e "${red}Please run as root${plain}" && exit 1
+# Galexy X Panel - Official Installation Script
+XUI_FOLDER="/usr/local/x-ui"
+SERVICE_FILE="/etc/systemd/system/x-ui.service"
 
-echo -e "${green}=== Installing Galexy X Panel ===${plain}"
-apt-get update && apt-get install -y curl wget tar socat
+echo "=== Installing Galexy X Panel (Official) ==="
 
-mkdir -p /usr/local/x-ui
-cd /usr/local/x-ui
+# Install dependencies
+apt-get update && apt-get install -y curl tar
 
-echo -e "${green}Downloading source package...${plain}"
-curl -L -o x-ui.tar.gz https://github.com/ksgamer31/galexy-x-panel/archive/refs/heads/main.tar.gz
-tar -xzf x-ui.tar.gz --strip-components=1
-rm -f x-ui.tar.gz
+# Stop and cleanup
+systemctl stop x-ui 2>/dev/null
+rm -rf ${XUI_FOLDER}
 
-if [ -f "deploy/x-ui.service" ]; then
-    cp deploy/x-ui.service /etc/systemd/system/x-ui.service
+mkdir -p ${XUI_FOLDER}
+cd ${XUI_FOLDER}
+
+# Download binary release
+echo "Downloading Galexy X Panel Release..."
+curl -L -o x-ui-linux-amd64.tar.gz https://github.com/ksgamer31/galexy-x-panel/releases/download/v1.2.1/x-ui-linux-amd64.tar.gz
+
+tar -xzf x-ui-linux-amd64.tar.gz
+# If tar contained a nested folder, move it up
+if [ -d "x-ui" ] && [ ! -x "x-ui" ]; then
+    mv x-ui/* .
+    rmdir x-ui
 fi
+rm -f x-ui-linux-amd64.tar.gz
+
+chmod +x x-ui
+
+# Setup systemd service
+cat << EOF > ${SERVICE_FILE}
+[Unit]
+Description=Galexy X Panel
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=${XUI_FOLDER}/x-ui
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
+EOF
 
 systemctl daemon-reload
 systemctl enable x-ui
-systemctl restart x-ui
+systemctl start x-ui
 
-echo -e "${green}=== Galexy X Panel Installed Successfully! ===${plain}"
+echo "=== Galexy X Panel Installed Successfully! ==="
