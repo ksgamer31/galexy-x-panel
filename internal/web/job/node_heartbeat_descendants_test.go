@@ -10,11 +10,11 @@ import (
 
 	"github.com/op/go-logging"
 
-	"github.com/mhsanaei/3x-ui/v3/internal/database"
-	"github.com/mhsanaei/3x-ui/v3/internal/database/model"
-	xuilogger "github.com/mhsanaei/3x-ui/v3/internal/logger"
-	"github.com/mhsanaei/3x-ui/v3/internal/web/runtime"
-	"github.com/mhsanaei/3x-ui/v3/internal/web/service"
+	"github.com/mhsanaei/Galexy X Panel/v3/internal/database"
+	"github.com/mhsanaei/Galexy X Panel/v3/internal/database/model"
+	xuilogger "github.com/mhsanaei/Galexy X Panel/v3/internal/logger"
+	"github.com/mhsanaei/Galexy X Panel/v3/internal/web/runtime"
+	"github.com/mhsanaei/Galexy X Panel/v3/internal/web/service"
 )
 
 func transitiveGuids(t *testing.T) []string {

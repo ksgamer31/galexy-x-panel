@@ -4,9 +4,9 @@ import (
 	"context"
 	"strings"
 
-	"github.com/mhsanaei/3x-ui/v3/internal/database/model"
-	"github.com/mhsanaei/3x-ui/v3/internal/logger"
-	"github.com/mhsanaei/3x-ui/v3/internal/xray"
+	"github.com/mhsanaei/Galexy X Panel/v3/internal/database/model"
+	"github.com/mhsanaei/Galexy X Panel/v3/internal/logger"
+	"github.com/mhsanaei/Galexy X Panel/v3/internal/xray"
 
 	"gorm.io/gorm"
 )

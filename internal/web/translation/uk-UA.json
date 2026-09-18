@@ -1223,7 +1223,7 @@
       "subAnnounce": "Оголошення",
       "subAnnounceDesc": "Текст оголошення, що відображається у VPN-клієнті. Підтримує токени ідентифікації клієнта: {{EMAIL}}, {{ID}}, {{SHORT_ID}}, {{SUB_ID}}, {{TELEGRAM_ID}}.",
       "subThemeDir": "Каталог теми підписки",
-      "subThemeDirDesc": "Абсолютний шлях до теки з користувацьким шаблоном (index.html/sub.html) для сторінки підписки (наприклад, /etc/3x-ui/sub_templates/my-theme/). Залиште порожнім, щоб використовувати сторінку за замовчуванням.",
+      "subThemeDirDesc": "Абсолютний шлях до теки з користувацьким шаблоном (index.html/sub.html) для сторінки підписки (наприклад, /etc/Galexy X Panel/sub_templates/my-theme/). Залиште порожнім, щоб використовувати сторінку за замовчуванням.",
       "subThemeDirDocs": "Посібник із шаблонів ↗",
       "subEnableRouting": "Увімкнути маршрутизацію",
       "happLinkEnable": "Зашифровані посилання на підписку",
@@ -2439,10 +2439,10 @@
   },
   "discord": {
     "test": {
-      "title": "Тестове сповіщення Discord від 3x-ui",
+      "title": "Тестове сповіщення Discord від Galexy X Panel",
       "body": "Це тестове сповіщення підтверджує, що сповіщення Discord налаштовано правильно."
     },
-    "footer": "Панель 3x-ui",
+    "footer": "Панель Galexy X Panel",
     "fields": {
       "panelVersion": "Версія панелі",
       "xrayCore": "Ядро Xray",
@@ -2477,13 +2477,13 @@
       "loginFailed": "Невдалий вхід"
     },
     "report": {
-      "title": "📊 Звіт про стан 3x-ui",
+      "title": "📊 Звіт про стан Galexy X Panel",
       "summary": "Періодичний звіт про стан сервера та проксі для **{{ .Host }}**",
-      "footer": "Плановий звіт 3x-ui • Розклад: {{ .RunTime }}"
+      "footer": "Плановий звіт Galexy X Panel • Розклад: {{ .RunTime }}"
     },
     "commands": {
-      "helpTitle": "🤖 Команди Discord-бота 3x-ui",
-      "helpDescription": "Доступні команди для моніторингу та керування сервером 3x-ui:",
+      "helpTitle": "🤖 Команди Discord-бота Galexy X Panel",
+      "helpDescription": "Доступні команди для моніторингу та керування сервером Galexy X Panel:",
       "helpStatus": "Показати навантаження системи, RAM, CPU, з'єднання та користувачів онлайн",
       "helpReport": "Сформувати повний звіт про стан (з резервною копією БД, якщо увімкнено)",
       "helpBackup": "Негайно надіслати файл резервної копії бази даних",
@@ -2491,10 +2491,10 @@
       "helpInbounds": "Список усіх налаштованих вхідних підключень із портами та статистикою клієнтів",
       "helpRestart": "Перезапустити ядро Xray",
       "helpHelp": "Показати цей список команд",
-      "statusTitle": "⚡ Стан сервера 3x-ui",
+      "statusTitle": "⚡ Стан сервера Galexy X Panel",
       "statusDescription": "Поточні робочі показники **{{ .Host }}**",
       "backupTitle": "🗄️ Резервна копія бази даних",
-      "backupDescription": "Резервну копію 3x-ui створено `{{ .Time }}`",
+      "backupDescription": "Резервну копію Galexy X Panel створено `{{ .Time }}`",
       "backupUnavailable": "❌ Служба резервного копіювання недоступна",
       "backupFailed": "❌ Не вдалося прочитати резервну копію бази даних: {{ .Error }}",
       "usageHint": "⚠️ Використання: `!usage <email>` або `/usage <email>`",

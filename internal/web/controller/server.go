@@ -8,13 +8,13 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/mhsanaei/3x-ui/v3/internal/database/model"
-	"github.com/mhsanaei/3x-ui/v3/internal/logger"
-	"github.com/mhsanaei/3x-ui/v3/internal/web/entity"
-	"github.com/mhsanaei/3x-ui/v3/internal/web/global"
-	"github.com/mhsanaei/3x-ui/v3/internal/web/service"
-	"github.com/mhsanaei/3x-ui/v3/internal/web/service/panel"
-	"github.com/mhsanaei/3x-ui/v3/internal/web/websocket"
+	"github.com/mhsanaei/Galexy X Panel/v3/internal/database/model"
+	"github.com/mhsanaei/Galexy X Panel/v3/internal/logger"
+	"github.com/mhsanaei/Galexy X Panel/v3/internal/web/entity"
+	"github.com/mhsanaei/Galexy X Panel/v3/internal/web/global"
+	"github.com/mhsanaei/Galexy X Panel/v3/internal/web/service"
+	"github.com/mhsanaei/Galexy X Panel/v3/internal/web/service/panel"
+	"github.com/mhsanaei/Galexy X Panel/v3/internal/web/websocket"
 
 	"github.com/gin-gonic/gin"
 )

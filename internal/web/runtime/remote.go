@@ -17,13 +17,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/mhsanaei/3x-ui/v3/internal/crypto/nodetoken"
-	"github.com/mhsanaei/3x-ui/v3/internal/database/model"
-	"github.com/mhsanaei/3x-ui/v3/internal/logger"
-	"github.com/mhsanaei/3x-ui/v3/internal/util/netsafe"
-	"github.com/mhsanaei/3x-ui/v3/internal/util/wirecodec"
-	"github.com/mhsanaei/3x-ui/v3/internal/web/entity"
-	"github.com/mhsanaei/3x-ui/v3/internal/xray"
+	"github.com/mhsanaei/Galexy X Panel/v3/internal/crypto/nodetoken"
+	"github.com/mhsanaei/Galexy X Panel/v3/internal/database/model"
+	"github.com/mhsanaei/Galexy X Panel/v3/internal/logger"
+	"github.com/mhsanaei/Galexy X Panel/v3/internal/util/netsafe"
+	"github.com/mhsanaei/Galexy X Panel/v3/internal/util/wirecodec"
+	"github.com/mhsanaei/Galexy X Panel/v3/internal/web/entity"
+	"github.com/mhsanaei/Galexy X Panel/v3/internal/xray"
 )
 
 const remoteHTTPTimeout = 10 * time.Second

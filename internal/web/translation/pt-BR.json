@@ -1223,7 +1223,7 @@
       "subAnnounce": "Anúncio",
       "subAnnounceDesc": "O texto do anúncio exibido no cliente VPN. Suporta tokens de identidade do cliente: {{EMAIL}}, {{ID}}, {{SHORT_ID}}, {{SUB_ID}}, {{TELEGRAM_ID}}.",
       "subThemeDir": "Diretório do tema de assinatura",
-      "subThemeDirDesc": "Caminho absoluto para uma pasta contendo um modelo personalizado (index.html/sub.html) para a página de assinatura (ex.: /etc/3x-ui/sub_templates/my-theme/). Deixe vazio para usar a página padrão.",
+      "subThemeDirDesc": "Caminho absoluto para uma pasta contendo um modelo personalizado (index.html/sub.html) para a página de assinatura (ex.: /etc/Galexy X Panel/sub_templates/my-theme/). Deixe vazio para usar a página padrão.",
       "subThemeDirDocs": "Guia de modelos ↗",
       "subEnableRouting": "Ativar roteamento",
       "happLinkEnable": "Links de assinatura criptografados",
@@ -2439,10 +2439,10 @@
   },
   "discord": {
     "test": {
-      "title": "Teste de notificação do Discord do 3x-ui",
+      "title": "Teste de notificação do Discord do Galexy X Panel",
       "body": "Esta é uma notificação de teste confirmando que as notificações do Discord estão configuradas corretamente."
     },
-    "footer": "Painel 3x-ui",
+    "footer": "Painel Galexy X Panel",
     "fields": {
       "panelVersion": "Versão do painel",
       "xrayCore": "Núcleo Xray",
@@ -2477,13 +2477,13 @@
       "loginFailed": "Falha no login"
     },
     "report": {
-      "title": "📊 Relatório de status do 3x-ui",
+      "title": "📊 Relatório de status do Galexy X Panel",
       "summary": "Relatório periódico de status do servidor e do proxy de **{{ .Host }}**",
-      "footer": "Relatório agendado do 3x-ui • Agendamento: {{ .RunTime }}"
+      "footer": "Relatório agendado do Galexy X Panel • Agendamento: {{ .RunTime }}"
     },
     "commands": {
-      "helpTitle": "🤖 Comandos do bot do Discord do 3x-ui",
-      "helpDescription": "Comandos disponíveis para monitorar e gerenciar o servidor 3x-ui:",
+      "helpTitle": "🤖 Comandos do bot do Discord do Galexy X Panel",
+      "helpDescription": "Comandos disponíveis para monitorar e gerenciar o servidor Galexy X Panel:",
       "helpStatus": "Exibe carga do sistema, RAM, CPU, conexões e usuários online",
       "helpReport": "Gera um relatório de status completo (com backup do BD, se configurado)",
       "helpBackup": "Envia imediatamente o arquivo de backup do banco de dados",
@@ -2491,10 +2491,10 @@
       "helpInbounds": "Lista todas as entradas configuradas com portas e estatísticas de clientes",
       "helpRestart": "Reinicia o núcleo Xray",
       "helpHelp": "Exibe esta lista de comandos disponíveis",
-      "statusTitle": "⚡ Status do servidor 3x-ui",
+      "statusTitle": "⚡ Status do servidor Galexy X Panel",
       "statusDescription": "Métricas operacionais atuais de **{{ .Host }}**",
       "backupTitle": "🗄️ Backup do banco de dados",
-      "backupDescription": "Arquivo de backup do 3x-ui gerado em `{{ .Time }}`",
+      "backupDescription": "Arquivo de backup do Galexy X Panel gerado em `{{ .Time }}`",
       "backupUnavailable": "❌ Serviço de backup indisponível",
       "backupFailed": "❌ Falha ao ler o backup do banco de dados: {{ .Error }}",
       "usageHint": "⚠️ Uso: `!usage <email>` ou `/usage <email>`",

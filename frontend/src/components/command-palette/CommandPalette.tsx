@@ -801,7 +801,7 @@ export default function CommandPalette() {
                 {t('close')}
               </span>
             </div>
-            <span>3x-ui Command Palette</span>
+            <span>Galexy X Panel Command Palette</span>
           </div>
         </div>
       </div>

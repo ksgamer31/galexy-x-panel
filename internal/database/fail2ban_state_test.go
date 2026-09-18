@@ -7,8 +7,8 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/mhsanaei/3x-ui/v3/internal/config"
-	"github.com/mhsanaei/3x-ui/v3/internal/database/model"
+	"github.com/mhsanaei/Galexy X Panel/v3/internal/config"
+	"github.com/mhsanaei/Galexy X Panel/v3/internal/database/model"
 )
 
 // stubFail2banClient puts a fail2ban-client on PATH whose exit code the test picks.

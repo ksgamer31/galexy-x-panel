@@ -1,4 +1,4 @@
-// Pure builders for 3x-ui install commands (script + Docker). No React/DOM.
+// Pure builders for Galexy X Panel install commands (script + Docker). No React/DOM.
 
 export type InstallMethod = 'script' | 'docker';
 
@@ -11,8 +11,8 @@ export interface InstallOptions {
   webBasePath: string;
 }
 
-const REPO_RAW = 'https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.sh';
-const IMAGE = 'ghcr.io/mhsanaei/3x-ui:latest';
+const REPO_RAW = 'https://raw.githubusercontent.com/mhsanaei/Galexy X Panel/master/install.sh';
+const IMAGE = 'ghcr.io/mhsanaei/Galexy X Panel:latest';
 
 function isLatest(version: string): boolean {
   const v = version.trim().toLowerCase();
@@ -43,7 +43,7 @@ export function buildDockerRun(options: InstallOptions): string {
   lines.push(`  -v $PWD/cert/:/root/cert/`);
   lines.push(`  --network=host`);
   lines.push(`  --restart=unless-stopped`);
-  lines.push(`  --name 3x-ui`);
+  lines.push(`  --name Galexy X Panel`);
   lines.push(`  ${IMAGE}`);
   return lines.join(' \\\n');
 }
@@ -60,9 +60,9 @@ export function buildDockerCompose(options: InstallOptions): string {
 
   return [
     `services:`,
-    `  3x-ui:`,
+    `  Galexy X Panel:`,
     `    image: ${IMAGE}`,
-    `    container_name: 3x-ui`,
+    `    container_name: Galexy X Panel`,
     `    volumes:`,
     `      - ./db/:/etc/x-ui/`,
     `      - ./cert/:/root/cert/`,

@@ -8,9 +8,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/mhsanaei/3x-ui/v3/internal/database/model"
-	"github.com/mhsanaei/3x-ui/v3/internal/web/service"
-	"github.com/mhsanaei/3x-ui/v3/internal/xray"
+	"github.com/mhsanaei/Galexy X Panel/v3/internal/database/model"
+	"github.com/mhsanaei/Galexy X Panel/v3/internal/web/service"
+	"github.com/mhsanaei/Galexy X Panel/v3/internal/xray"
 )
 
 type mockServerProvider struct {

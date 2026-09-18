@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/mhsanaei/3x-ui/v3/internal/database/model"
+	"github.com/mhsanaei/Galexy X Panel/v3/internal/database/model"
 
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"

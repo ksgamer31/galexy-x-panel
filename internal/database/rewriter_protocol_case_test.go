@@ -5,9 +5,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/mhsanaei/3x-ui/v3/internal/config"
-	"github.com/mhsanaei/3x-ui/v3/internal/database/model"
-	"github.com/mhsanaei/3x-ui/v3/internal/xray"
+	"github.com/mhsanaei/Galexy X Panel/v3/internal/config"
+	"github.com/mhsanaei/Galexy X Panel/v3/internal/database/model"
+	"github.com/mhsanaei/Galexy X Panel/v3/internal/xray"
 )
 
 func TestRewriteRemovedOutboundKeysSeesAnUppercaseFreedom(t *testing.T) {

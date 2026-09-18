@@ -25,12 +25,12 @@ The built binary must serve these paths beneath the configured `webBasePath`:
 - `manifest.webmanifest`
 - `pwa-register.js`
 - `service-worker.js`
-- `icons/3x-ui-16.png`
-- `icons/3x-ui-24.png`
-- `icons/3x-ui-32.png`
-- `icons/3x-ui-64.png`
-- `icons/3x-ui-192.png`
-- `icons/3x-ui-512.png`
+- `icons/Galexy X Panel-16.png`
+- `icons/Galexy X Panel-24.png`
+- `icons/Galexy X Panel-32.png`
+- `icons/Galexy X Panel-64.png`
+- `icons/Galexy X Panel-192.png`
+- `icons/Galexy X Panel-512.png`
 
 The login and panel HTML must contain a manifest link and registration script
 whose URLs begin with the same runtime base path. The manifest must contain

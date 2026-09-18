@@ -1,4 +1,4 @@
-// Package logger provides logging functionality for the 3x-ui panel with
+// Package logger provides logging functionality for the Galexy X Panel panel with
 // dual-backend logging (console/syslog and file) and buffered log storage for web UI.
 package logger
 
@@ -13,7 +13,7 @@ import (
 
 	"github.com/op/go-logging"
 
-	"github.com/mhsanaei/3x-ui/v3/internal/config"
+	"github.com/mhsanaei/Galexy X Panel/v3/internal/config"
 
 	"gopkg.in/natefinch/lumberjack.v2"
 )

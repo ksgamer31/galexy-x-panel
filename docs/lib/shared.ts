@@ -1,32 +1,32 @@
-export const appName = '3x-ui';
+export const appName = 'Galexy X Panel';
 export const appTagline = 'Advanced web panel for managing Xray-core servers';
 
 export const docsRoute = '/docs';
 export const docsImageRoute = '/og/docs';
 export const docsContentRoute = '/llms.mdx/docs';
 
-// The 3x-ui product repository — used for the navbar GitHub link,
+// The Galexy X Panel product repository — used for the navbar GitHub link,
 // build-time star/release stats, and install commands.
 export const productRepo = {
-  user: 'MHSanaei',
-  repo: '3x-ui',
+  user: 'Galexy X Panel',
+  repo: 'Galexy X Panel',
   branch: 'main',
 };
 
-// Where these docs live in the 3x-ui monorepo — used for "Edit on GitHub" links.
+// Where these docs live in the Galexy X Panel monorepo — used for "Edit on GitHub" links.
 export const gitConfig = {
-  user: 'MHSanaei',
-  repo: '3x-ui',
+  user: 'Galexy X Panel',
+  repo: 'Galexy X Panel',
   branch: 'main',
   docsDir: 'docs/content/docs',
 };
 
 export const productRepoUrl = `https://github.com/${productRepo.user}/${productRepo.repo}`;
 
-// AI-generated interactive wiki of the 3x-ui codebase.
+// AI-generated interactive wiki of the Galexy X Panel codebase.
 export const deepWikiUrl = `https://deepwiki.com/${productRepo.user}/${productRepo.repo}`;
 
-// Official 3x-ui community channel on Telegram (announcements & support).
+// Official Galexy X Panel community channel on Telegram (announcements & support).
 export const telegramChannel = 'XrayUI';
 export const telegramChannelUrl = `https://t.me/${telegramChannel}`;
 

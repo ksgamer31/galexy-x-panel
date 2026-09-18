@@ -20,11 +20,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/mhsanaei/3x-ui/v3/internal/config"
-	"github.com/mhsanaei/3x-ui/v3/internal/database/model"
-	"github.com/mhsanaei/3x-ui/v3/internal/util/crypto"
-	"github.com/mhsanaei/3x-ui/v3/internal/util/random"
-	"github.com/mhsanaei/3x-ui/v3/internal/xray"
+	"github.com/mhsanaei/Galexy X Panel/v3/internal/config"
+	"github.com/mhsanaei/Galexy X Panel/v3/internal/database/model"
+	"github.com/mhsanaei/Galexy X Panel/v3/internal/util/crypto"
+	"github.com/mhsanaei/Galexy X Panel/v3/internal/util/random"
+	"github.com/mhsanaei/Galexy X Panel/v3/internal/xray"
 
 	"github.com/mattn/go-sqlite3"
 	"gorm.io/driver/postgres"

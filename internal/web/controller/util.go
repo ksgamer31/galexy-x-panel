@@ -9,9 +9,9 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/mhsanaei/3x-ui/v3/internal/logger"
-	"github.com/mhsanaei/3x-ui/v3/internal/web/entity"
-	"github.com/mhsanaei/3x-ui/v3/internal/web/service"
+	"github.com/mhsanaei/Galexy X Panel/v3/internal/logger"
+	"github.com/mhsanaei/Galexy X Panel/v3/internal/web/entity"
+	"github.com/mhsanaei/Galexy X Panel/v3/internal/web/service"
 
 	"github.com/gin-gonic/gin"
 )

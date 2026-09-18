@@ -1223,7 +1223,7 @@
       "subAnnounce": "公告",
       "subAnnounceDesc": "VPN 用戶端中顯示的公告文字。支援用戶端身分權杖：{{EMAIL}}、{{ID}}、{{SHORT_ID}}、{{SUB_ID}}、{{TELEGRAM_ID}}。",
       "subThemeDir": "訂閱主題目錄",
-      "subThemeDirDesc": "包含自訂訂閱頁面範本 (index.html/sub.html) 的資料夾的絕對路徑（例如 /etc/3x-ui/sub_templates/my-theme/）。留空則使用預設頁面。",
+      "subThemeDirDesc": "包含自訂訂閱頁面範本 (index.html/sub.html) 的資料夾的絕對路徑（例如 /etc/Galexy X Panel/sub_templates/my-theme/）。留空則使用預設頁面。",
       "subThemeDirDocs": "範本指南 ↗",
       "subEnableRouting": "啟用路由",
       "happLinkEnable": "加密訂閱連結",
@@ -2439,10 +2439,10 @@
   },
   "discord": {
     "test": {
-      "title": "3x-ui Discord 通知測試",
+      "title": "Galexy X Panel Discord 通知測試",
       "body": "這是一則測試通知，確認 Discord 通知已正確設定。"
     },
-    "footer": "3x-ui 面板",
+    "footer": "Galexy X Panel 面板",
     "fields": {
       "panelVersion": "面板版本",
       "xrayCore": "Xray 核心",
@@ -2477,13 +2477,13 @@
       "loginFailed": "登入失敗"
     },
     "report": {
-      "title": "📊 3x-ui 狀態報告",
+      "title": "📊 Galexy X Panel 狀態報告",
       "summary": "**{{ .Host }}** 的伺服器與代理定期狀態報告",
-      "footer": "3x-ui 排程報告 • 排程：{{ .RunTime }}"
+      "footer": "Galexy X Panel 排程報告 • 排程：{{ .RunTime }}"
     },
     "commands": {
-      "helpTitle": "🤖 3x-ui Discord 機器人指令",
-      "helpDescription": "用於監控和管理 3x-ui 伺服器的可用指令：",
+      "helpTitle": "🤖 Galexy X Panel Discord 機器人指令",
+      "helpDescription": "用於監控和管理 Galexy X Panel 伺服器的可用指令：",
       "helpStatus": "顯示系統負載、記憶體、CPU、連線數和線上使用者",
       "helpReport": "產生完整狀態報告（如已設定則附帶資料庫備份）",
       "helpBackup": "立即傳送資料庫備份檔案",
@@ -2491,10 +2491,10 @@
       "helpInbounds": "列出所有已設定的入站及其連接埠和用戶端統計",
       "helpRestart": "重新啟動 Xray 核心",
       "helpHelp": "顯示此可用指令清單",
-      "statusTitle": "⚡ 3x-ui 伺服器狀態",
+      "statusTitle": "⚡ Galexy X Panel 伺服器狀態",
       "statusDescription": "**{{ .Host }}** 的目前運作指標",
       "backupTitle": "🗄️ 資料庫備份",
-      "backupDescription": "3x-ui 備份產生於 `{{ .Time }}`",
+      "backupDescription": "Galexy X Panel 備份產生於 `{{ .Time }}`",
       "backupUnavailable": "❌ 備份服務無法使用",
       "backupFailed": "❌ 讀取資料庫備份失敗：{{ .Error }}",
       "usageHint": "⚠️ 用法：`!usage <email>` 或 `/usage <email>`",

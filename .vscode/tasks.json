@@ -8,14 +8,14 @@
       "args": [
         "build",
         "-o",
-        "bin/3x-ui",
+        "bin/Galexy X Panel",
         "./main.go"
       ],
       "windows": {
         "args": [
           "build",
           "-o",
-          "bin/3x-ui.exe",
+          "bin/Galexy X Panel.exe",
           "./main.go"
         ]
       },
